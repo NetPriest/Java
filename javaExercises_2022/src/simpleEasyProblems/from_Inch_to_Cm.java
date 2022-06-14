@@ -2,10 +2,7 @@ package simpleEasyProblems;
 
 import java.util.Scanner;
 
-/*4. От инчове към сантиметри <C++ C# Java>
-
-	Да се напише програма, която чете от конзолата число (не непременно цяло) и преобразува числото от инчове в сантиметри.
-	За целта умножава инчовете по 2.54 (защото 1 инч = 2.54 сантиметра).*/
+/*4. This is a simple Inch to Centimetre converter.*/
 
 public class from_Inch_to_Cm {
 
