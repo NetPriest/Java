@@ -34,18 +34,17 @@ import java.util.Scanner;
 public class aquarium {
 
 	public static void main(String[] args) {
-		Scanner keyScanner=new Scanner(System.in);
+		Scanner keyScanner = new Scanner(System.in);
 		System.out.println("Please, enter the lenght, size, height and the persent of the objects:");
-		int lenght=keyScanner.nextInt();
-		int size=keyScanner.nextInt();
-		int height=keyScanner.nextInt();
-		double percentOfObjects=keyScanner.nextDouble()*0.01;
-		double volumeAquarium=lenght*size*height;
-		final double literToDm3=0.001;
-		double litersMax=volumeAquarium*literToDm3;
-		double litersReal=litersMax*(1-percentOfObjects);
+		int lenght = keyScanner.nextInt();
+		int size = keyScanner.nextInt();
+		int height = keyScanner.nextInt();
+		double percentOfObjects = keyScanner.nextDouble() * 0.01;
+		double volumeAquarium = lenght * size * height;
+		final double literToDm3 = 0.001;
+		double litersMax = volumeAquarium * literToDm3;
+		double litersReal = litersMax * (1 - percentOfObjects);
 		System.out.printf("%.3f", litersReal);
-		
 
 	}
 

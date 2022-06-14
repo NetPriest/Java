@@ -11,14 +11,13 @@ import java.util.Scanner;
 public class appendTextNumbersForPerson {
 
 	public static void main(String[] args) {
-			Scanner keyboardScanner=new Scanner(System.in);
-			System.out.println("Please enter one by one first name, last name, age and city: " );
-			String fname=keyboardScanner.next();
-			String lname=keyboardScanner.next();
-			int age=keyboardScanner.nextInt();
-			String town=keyboardScanner.next();
-			System.out.print("You are "+fname+" "+lname+", a "+age+"-years old person from "+town+"." );
-					
+		Scanner keyboardScanner = new Scanner(System.in);
+		System.out.println("Please enter one by one first name, last name, age and city: ");
+		String fname = keyboardScanner.next();
+		String lname = keyboardScanner.next();
+		int age = keyboardScanner.nextInt();
+		String town = keyboardScanner.next();
+		System.out.print("You are " + fname + " " + lname + ", a " + age + "-years old person from " + town + ".");
 
 	}
 

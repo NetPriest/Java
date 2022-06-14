@@ -13,23 +13,23 @@ import java.util.Scanner;
 public class areaInTheFields {
 
 	public static void main(String[] args) {
-		Scanner keyScanner=new Scanner(System.in);
-		
-		double x1=keyScanner.nextDouble();
-		double y1=keyScanner.nextDouble();
-		double x2=keyScanner.nextDouble();
-		double y2=keyScanner.nextDouble();
-		
-		double lenght=Math.abs(x1-x2);
-		double width=Math.abs(y1-y2);
-		
-		double area=lenght*width;
-		double perimeter=2*(lenght+width);
+		Scanner keyScanner = new Scanner(System.in);
+
+		double x1 = keyScanner.nextDouble();
+		double y1 = keyScanner.nextDouble();
+		double x2 = keyScanner.nextDouble();
+		double y2 = keyScanner.nextDouble();
+
+		double lenght = Math.abs(x1 - x2);
+		double width = Math.abs(y1 - y2);
+
+		double area = lenght * width;
+		double perimeter = 2 * (lenght + width);
 		System.out.print("The area of the square: ");
-		System.out.printf("%.2f",area);
+		System.out.printf("%.2f", area);
 		System.out.println(" ");
 		System.out.print("The perimeter of the square: ");
-		System.out.printf("%.2f",perimeter);
+		System.out.printf("%.2f", perimeter);
 
 	}
 
