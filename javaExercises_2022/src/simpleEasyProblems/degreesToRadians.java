@@ -1,5 +1,10 @@
 package simpleEasyProblems;
 
+/*Radians to degrees
+The user must enter radians which is real number and shoud convert to degrees...
+
+*/
+
 import java.util.Scanner;
 
 public class degreesToRadians {
